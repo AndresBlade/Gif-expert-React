@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifGrid /> Debería de hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="spinner-container"
+    data-testid="spinner"
+  >
+    <div
+      class="spinner"
+    />
+  </div>
+  <div
+    class="card-grid"
+  />
+</div>
+`;

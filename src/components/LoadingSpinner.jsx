@@ -2,9 +2,8 @@ import React from 'react'
 import '../spinner.css'
 
 export const LoadingSpinner = ({ isLoading }) => {
-    console.log(isLoading)
     return (
-        isLoading && (<div className="spinner-container">
+        isLoading && (<div className="spinner-container" data-testid='spinner'>
             <div className="spinner"></div>
         </div>)
     )
